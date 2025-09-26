@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escritório de Advocacia - Defendendo seus direitos com excelência</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-balance-scale"></i>
+                <span>Advocacia & Direito</span>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#noticias">Notícias</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Seção Hero -->
+    <section class="hero" id="hero" style="background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/images/img_fundo.jpg');">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1>Defendendo seus direitos com excelência</h1>
+                <p>Mais de 20 anos de experiência oferecendo soluções jurídicas personalizadas e eficazes para nossos clientes</p>
+                <a href="https://wa.me/5519981723395?text=Olá! Gostaria de falar sobre meus direitos." class="cta-button">
+                    <i class="fab fa-whatsapp"></i>
+                    Fale conosco no WhatsApp
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Serviços -->
+    <section class="services" id="servicos">
+        <div class="container">
+            <h2>Nossos Serviços</h2>
+            <p class="section-subtitle">Selecione os serviços de seu interesse e entre em contato conosco</p>
+            
+            <div class="services-grid">
+                <div class="service-card" data-service="Direito Civil">
+                    <div class="service-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Direito Civil</h3>
+                    <p>Contratos, responsabilidade civil, direito de família, sucessões e questões patrimoniais.</p>
+                    <div class="service-checkbox">
+                        <input type="checkbox" id="civil" name="services" value="Direito Civil">
+                        <label for="civil">Tenho interesse</label>
+                    </div>
+                </div>
+
+                <div class="service-card" data-service="Direito Trabalhista">
+                    <div class="service-icon">
+                        <i class="fas fa-hard-hat"></i>
+                    </div>
+                    <h3>Direito Trabalhista</h3>
+                    <p>Rescisões, horas extras, assédio moral, acidentes de trabalho e direitos do trabalhador.</p>
+                    <div class="service-checkbox">
+                        <input type="checkbox" id="trabalhista" name="services" value="Direito Trabalhista">
+                        <label for="trabalhista">Tenho interesse</label>
+                    </div>
+                </div>
+
+                <div class="service-card" data-service="Direito Tributário">
+                    <div class="service-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3>Direito Tributário</h3>
+                    <p>Planejamento tributário, restituições, parcelamentos e defesa em processos fiscais.</p>
+                    <div class="service-checkbox">
+                        <input type="checkbox" id="tributario" name="services" value="Direito Tributário">
+                        <label for="tributario">Tenho interesse</label>
+                    </div>
+                </div>
+
+                <div class="service-card" data-service="Direito Penal">
+                    <div class="service-icon">
+                        <i class="fas fa-gavel"></i>
+                    </div>
+                    <h3>Direito Penal</h3>
+                    <p>Defesa criminal, habeas corpus, recursos e acompanhamento processual completo.</p>
+                    <div class="service-checkbox">
+                        <input type="checkbox" id="penal" name="services" value="Direito Penal">
+                        <label for="penal">Tenho interesse</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="services-cta">
+                <button id="contact-selected-services" class="cta-button secondary">
+                    <i class="fab fa-whatsapp"></i>
+                    Falar sobre serviços selecionados
+                </button>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Seção do Advogado Principal -->
+    <section class="lawyer-profile" id="advogado">
+        <div class="container">
+            <div class="lawyer-content">
+                <div class="lawyer-photo">
+                    <img src="lawyer-photo.jpg" alt="Dr. João Silva - Advogado Principal" class="lawyer-image">
+                    <div class="lawyer-credentials">
+                        <div class="credential">
+                            <i class="fas fa-graduation-cap"></i>
+                            <span>OAB/SP 123.456</span>
+                        </div>
+                        <div class="credential">
+                            <i class="fas fa-award"></i>
+                            <span>Especialista em Direito Civil</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="lawyer-info">
+                    <h2>Dr. João Silva</h2>
+                    <h3>Advogado Principal & Fundador</h3>
+                    
+                    <p>Com mais de 20 anos de experiência na advocacia, Dr. João Silva é especialista em Direito Civil e Empresarial. Formado pela Universidade de São Paulo (USP) e pós-graduado em Direito Processual Civil, tem se dedicado a oferecer soluções jurídicas inovadoras e eficazes para seus clientes.</p>
+                    
+                    <div class="lawyer-specialties">
+                        <h4>Especializações</h4>
+                        <div class="specialties-grid">
+                            <div class="specialty">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Direito Civil e Empresarial</span>
+                            </div>
+                            <div class="specialty">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Contratos e Negociações</span>
+                            </div>
+                            <div class="specialty">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Direito de Família</span>
+                            </div>
+                            <div class="specialty">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Sucessões e Inventários</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="lawyer-achievements">
+                        <h4>Principais Conquistas</h4>
+                        <ul>
+                            <li>Mais de 500 casos resolvidos com sucesso</li>
+                            <li>95% de taxa de aprovação em recursos</li>
+                            <li>Reconhecimento pela OAB/SP como Advogado Destaque</li>
+                            <li>Palestrante em congressos jurídicos nacionais</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="lawyer-cta">
+                        <a href="https://wa.me/5519981723395?text=Olá Dr. João Silva! Gostaria de agendar uma consulta." class="cta-button">
+                            <i class="fab fa-whatsapp"></i>
+                            Falar com Dr. João Silva
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section class="about" id="sobre">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Sobre o Escritório</h2>
+                    <p>Fundado em 2003, nosso escritório de advocacia tem se destacado pela excelência no atendimento e pela busca incansável pelos direitos de nossos clientes. Com uma equipe altamente qualificada e especializada, oferecemos soluções jurídicas personalizadas em diversas áreas do direito.</p>
+                    
+                    <div class="about-highlights">
+                        <div class="highlight">
+                            <h3>Nossa Missão</h3>
+                            <p>Defender os direitos de nossos clientes com ética, transparência e dedicação, oferecendo soluções jurídicas eficazes e personalizadas.</p>
+                        </div>
+                        
+                        <div class="highlight">
+                            <h3>Nossos Valores</h3>
+                            <p>Ética profissional, transparência, compromisso com a justiça e excelência no atendimento ao cliente.</p>
+                        </div>
+                        
+                        <div class="highlight">
+                            <h3>Nossa Experiência</h3>
+                            <p>Mais de 20 anos de atuação, com centenas de casos resolvidos com sucesso em diversas áreas do direito.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-stats">
+                    <div class="stat">
+                        <div class="stat-number">20+</div>
+                        <div class="stat-label">Anos de Experiência</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">500+</div>
+                        <div class="stat-label">Casos Resolvidos</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">95%</div>
+                        <div class="stat-label">Taxa de Sucesso</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Seção de Notícias -->
+    <section class="news" id="noticias">
+        <div class="container">
+            <h2>Últimas Notícias Jurídicas</h2>
+            <p class="section-subtitle">Mantenha-se atualizado com as principais mudanças na legislação</p>
+            
+            <div class="news-grid">
+                <article class="news-card">
+                    <div class="news-date">25 Set 2025</div>
+                    <h3>Nova Lei de Proteção de Dados Pessoais</h3>
+                    <p>Entenda as principais mudanças na LGPD e como elas afetam empresas e consumidores.</p>
+                    <a href="#" class="news-link">Leia mais <i class="fas fa-arrow-right"></i></a>
+                </article>
+
+                <article class="news-card">
+                    <div class="news-date">20 Set 2025</div>
+                    <h3>Mudanças na Legislação Trabalhista</h3>
+                    <p>Novas regras para contratos de trabalho e direitos dos trabalhadores entram em vigor.</p>
+                    <a href="#" class="news-link">Leia mais <i class="fas fa-arrow-right"></i></a>
+                </article>
+
+                <article class="news-card">
+                    <div class="news-date">15 Set 2025</div>
+                    <h3>Reforma Tributária: O que muda</h3>
+                    <p>Análise completa das principais alterações na tributação brasileira.</p>
+                    <a href="#" class="news-link">Leia mais <i class="fas fa-arrow-right"></i></a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer" id="contato">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-balance-scale"></i>
+                        <span>Advocacia & Direito</span>
+                    </div>
+                    <p>Defendendo seus direitos com excelência há mais de 20 anos.</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Contato</h3>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Av. Paulista, 1000 - São Paulo, SP</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>(11) 99999-9999</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>contato@advocaciadireito.com.br</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <span>Seg-Sex: 8h às 18h</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Áreas de Atuação</h3>
+                    <ul class="footer-links">
+                        <li><a href="#servicos">Direito Civil</a></li>
+                        <li><a href="#servicos">Direito Trabalhista</a></li>
+                        <li><a href="#servicos">Direito Tributário</a></li>
+                        <li><a href="#servicos">Direito Penal</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Links Úteis</h3>
+                    <ul class="footer-links">
+                        <li><a href="#sobre">Sobre Nós</a></li>
+                        <li><a href="#noticias">Notícias</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                        <li><a href="#">Política de Privacidade</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2025 Advocacia & Direito. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
