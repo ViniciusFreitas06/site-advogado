@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', function() {
             const whatsappMessage = encodeURIComponent(
                 `Olá! Tenho interesse nos seguintes serviços: ${servicesText}. Gostaria de agendar uma consulta.`
             );
-            const whatsappUrl = `https://wa.me/5511999999999?text=${whatsappMessage}`;
+            const whatsappUrl = `https://wa.me/5519981723395?text=${whatsappMessage}`;
             window.open(whatsappUrl, '_blank');
         }
     });
