@@ -6,9 +6,9 @@
 }
 
 :root {
-    --primary-color: #1a1a1a;
-    --secondary-color: #2d2d2d;
-    --accent-color: #d4af37;
+    --primary-color: #1a1a1a; /*isso muda a cor de fundo de alguns campos...*/
+    --secondary-color: #2d2d2d; /*isso muda a cor de fundo de alguns campos...*/
+    --accent-color: #d4af37; /*muda cor de icones*/
     --accent-hover: #b8941f;
     --text-primary: #ffffff;
     --text-secondary: #cccccc;
@@ -44,7 +44,7 @@ body {
     background: rgba(26, 26, 26, 0.95);
     backdrop-filter: blur(10px);
     z-index: 1000;
-    padding: 1rem 0;
+    padding: 0.5rem 0;
     border-bottom: 1px solid var(--border-color);
     transition: var(--transition);
 }
@@ -752,4 +752,11 @@ html {
   .lawyer-credentials {
     grid-template-columns: 1fr; /* No mobile, só UMA coluna */
   }
+}
+
+.logo-placeholder{
+    max-width: 6rem; /* deixa menor e proporcional */
+    height: auto; /* evita distorção */
+    object-fit: contain; /* mantém proporção da imagem */
+    display: block;
 }
